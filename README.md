@@ -1,0 +1,1 @@
+Este proyecto es una aplicación web simple que permite encriptar y desencriptar textos utilizando reglas de sustitución de caracteres específicas. Es ideal para intercambiar mensajes secretos con personas que conozcan las reglas de encriptación utilizadas.
