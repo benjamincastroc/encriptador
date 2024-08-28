@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador de Textos</h1>
+        <img src="Logo.png">
+        <p>Vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.</p>
+        <div class="instructions">
+            <p><strong>Las "llaves" de encriptación que utilizaremos son las siguientes:</strong></p>
+            <ul>
+                <li>La letra "e" es convertida para "enter"</li>
+                <li>La letra "i" es convertida para "imes"</li>
+                <li>La letra "a" es convertida para "ai"</li>
+                <li>La letra "o" es convertida para "ober"</li>
+                <li>La letra "u" es convertida para "ufat"</li>
+            </ul>
+        </div>
+        <textarea id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+        <div class="buttons">
+            <button id="encryptBtn">Encriptar</button>
+            <button id="decryptBtn">Desencriptar</button>
+        </div>
+        <div class="result">
+            <textarea id="resultText" placeholder="El resultado aparecerá aquí" readonly></textarea>
+            <img src="Muñeco.png">
+            <button id="copyBtn">Copiar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
